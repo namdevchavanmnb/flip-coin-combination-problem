@@ -164,3 +164,20 @@ do
     echo "percentage of $combination is ${triplet_frequency[$combination]}%"   
 done
 
+#UC5
+
+
+echo "---------------------------WINNERS---------------------------"
+echo "For Singlet Combination"
+print_winner singlet_combinations singlet_combination_percentages
+echo 
+echo "For Doublet Combination"
+print_winner doublet_combinations doublet_combination_percentages
+echo
+
+echo "For Triplet Combination"
+print_winner triplet_combinations triplet_combination_percentages
+echo
+
+echo "For All Combinations"
+print_winner total_combinations total_combination_percentages
